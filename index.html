@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Fabulous Meme Generator</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>The Fabulous Meme Generator</h1>
+
+        <button id="goToFavorites">View Favorites</button>
+        <button id="goToGenerator">Meme Generator</button>
+
+        <div id="generatorPage">
+            <input type="text" id="memeInput" placeholder="What do you want a meme about?">
+            <button id="generateButton">Generate</button>
+            <div id="memeSelectionContainer" class="meme-selection-container"></div>
+            <button id="startOverButton" style="display:none;">Start Over</button>
+        </div>
+
+        <div id="favoritesPage" style="display: none;">
+            <div id="favoritesContainer" class="favorites-container"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
